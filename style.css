@@ -1,0 +1,22 @@
+.contenu {
+
+background-color:#EDEDED;
+
+}
+.musicbloc {
+  text-align: center;
+  background-color: #FFFFFF;
+  height: 85px;
+  margin-top: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 5px 5px #D3D3D3;
+
+
+}
+
+.backcontenu {
+  padding-left: 15%;
+  padding-right: 15%;
+  background-color: #EDEDED;
+
+}
