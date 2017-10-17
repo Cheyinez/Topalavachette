@@ -1,22 +1,93 @@
-.body {
-  background: silver;
-}
-.h1 {
-  text-align: center;
-}
+.body {background: silver;}
+
+.h1 {text-align: center;
+font-family: 'Montserrat:300', sans-serif; font-weight: 400;}
 .header{
     position: fixed;
+    width: 100%;
+    top: 0;
     left: 0;
-    right: 0;
-    height: 80px;
-    line-height: 80px;
-    background-color: grey;
+    height:75px;
+    background-color: #2f4148;}
+
+.container {
+margin: 0 auto;
+width: 960 px;
 }
+
+a {
+  text-decoration: none;
+  font-family: 'Montserrat:300', sans-serif; font-weight: 400;}
+
+li{
+  list-style: none;
+  float: left;
+  margin-left: 20px;
+  padding-top: 15px;}
+
+.nav{
+  float: right;
+margin-right: 20px;}
+
+
+.logo {
+float: left;
+height: 50px;
+padding: 12px;
+}
+
+
 .imageducentre {
 	max-width: 100%;
 	height: 300px;
-  
-}
-.sm {max-width: 100%;
+  text-align: center;}
+
+.sm {
+max-width: 100%;
 height: 50px;
+background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;}
+
+  .top {
+    padding: 13px 35px;
+    border:1px solid #FFF;
+    border-radius: 3px;
+    cursor: pointer;
+     -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+
+
+  }
+  .top a:visited{
+    color: white;
+  }
+
+.top:hover {
+  background-color: #FFF;
+  color: #2f4148;
 }
+.top:hover a{
+  color: #2f4148 !important;
+}
+
+  .propos {
+    padding: 13px 35px;
+    border:1px solid #FFF;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+     -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+  }
+  .propos a:visited{
+    color: #FFF;
+  }
+  .propos:hover {
+    background-color: #FFF;
+  }
+  .propos:hover a{
+    color: #2f4148 !important;
+  }
