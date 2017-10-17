@@ -67,9 +67,10 @@ background-size: cover;
 .top:hover {
   background-color: #FFF;
   color: #2f4148;
-
 }
-
+.top:hover a{
+  color: #2f4148 !important;
+}
 
   .propos {
     padding: 13px 35px;
@@ -84,9 +85,9 @@ background-size: cover;
   .propos a:visited{
     color: #FFF;
   }
-
   .propos:hover {
     background-color: #FFF;
-    color: #2f4148;
-
+  }
+  .propos:hover a{
+    color: #2f4148 !important;
   }
