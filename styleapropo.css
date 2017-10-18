@@ -5,15 +5,22 @@ html, body {
 .body {
   background: silver;
 }
-
-.titre {text-align: center;
+.titre {
+  padding: 15px;
+}
+.titre h1{text-align: center;
 font-family: 'Montserrat:300', sans-serif; font-weight: 400;
 margin-bottom: 0.5;
 padding-top: 100px;
 color: #2f4148;
 font-weight: bold;}
 
-.explications {
+.fa-headphones{
+  font-size: 50;
+  color: gold;
+  margin-top: 10px;
+}
+.titre p{
   font-family: 'Montserrat:300', sans-serif;
   color: #3a3a3a;
 text-align: center;
@@ -69,24 +76,24 @@ color: white;
 
 .nav{
   float: right;
-margin-right: 20px;}
+margin-right: 20px;
+margin-top: 13px;}
 
 
 .logo {
 float: left;
-height: 50px;
+height: 70px;
 padding: 12px;
 }
 
 .fonimgcenter {
-  background-image: url(jo.jpg);
+  background-image: url(image/jo.jpg);
   background-size: cover;
-width: 100%;
-height: 100%;
+  padding: 120px 90px;
 
 }
 
-.sm {
+.reseaux img {
 max-width: 100%;
 height: 50px;
 background-size: cover;
@@ -105,11 +112,10 @@ background-size: cover;
   font-weight: 400;
   color: white;
 }
-.info{  width: 100px;
+.cercle{  width: 100px;
   height: 100px;
-  background-color: gold;
-  background: none;
-  margin: 85px;
+  /*background-color: gold;
+  background: none;*/
   border: 5px solid gold;
   border-radius: 50%;
 
