@@ -1,7 +1,23 @@
-.body {background: silver;}
+html, body {
+    padding: 0;
+    margin: 0;
+}
+.body {
+  background: silver;
+}
 
-.h1 {text-align: center;
-font-family: 'Montserrat:300', sans-serif; font-weight: 400;}
+.titre {text-align: center;
+font-family: 'Montserrat:300', sans-serif; font-weight: 400;
+margin-bottom: 0.5;
+padding-top: 100px;
+color: #2f4148;
+font-weight: bold;}
+
+.explications {
+  font-family: 'Montserrat:300', sans-serif;
+  color: #3a3a3a;
+text-align: center;
+}
 .header{
     position: fixed;
     width: 100%;
@@ -14,16 +30,42 @@ font-family: 'Montserrat:300', sans-serif; font-weight: 400;}
 margin: 0 auto;
 width: 960 px;
 }
-
+.reseaux {
+  margin-bottom: 0.5em;
+  font-family: 'Montserrat:300', sans-serif
+  color: #2f4148; text-decoration: underline;
+  text-align: center;
+}
 a {
   text-decoration: none;
-  font-family: 'Montserrat:300', sans-serif; font-weight: 400;}
+color: white;
+}
 
-li{
+.nav li{
   list-style: none;
   float: left;
   margin-left: 20px;
-  padding-top: 15px;}
+  padding-top: 15px;
+  font-family: 'Montserrat:300', sans-serif; font-weight: 400;
+color: white;
+  padding: 13px 35px;
+  border:1px solid #FFF;
+  border-radius: 3px;
+  cursor: pointer;
+   -webkit-transition-duration: 0.2s; /* Safari */
+  transition-duration: 0.2s;
+}
+
+.nav a:visited{
+    color: white;}
+
+.nav li:hover {
+ background-color: #FFF;
+ color: #2f4148;
+    }
+.nav li:hover a{
+      color: #2f4148 !important;
+    }
 
 .nav{
   float: right;
@@ -36,11 +78,13 @@ height: 50px;
 padding: 12px;
 }
 
+.fonimgcenter {
+  background-image: url(jo.jpg);
+  background-size: cover;
+width: 100%;
+height: 100%;
 
-.imageducentre {
-	max-width: 100%;
-	height: 300px;
-  text-align: center;}
+}
 
 .sm {
 max-width: 100%;
@@ -50,44 +94,39 @@ background-size: cover;
   overflow: hidden;
   -webkit-backface-visibility: hidden;}
 
-  .top {
-    padding: 13px 35px;
-    border:1px solid #FFF;
-    border-radius: 3px;
-    cursor: pointer;
-     -webkit-transition-duration: 0.2s; /* Safari */
-    transition-duration: 0.2s;
 
-
-  }
-  .top a:visited{
-    color: white;
-  }
-
-.top:hover {
-  background-color: #FFF;
-  color: #2f4148;
+.bloc {list-style: none;
+  vertical-align: middle;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Montserrat:300',
+  sans-serif;
+  font-weight: 400;
+  color: white;
 }
-.top:hover a{
-  color: #2f4148 !important;
-}
+.info{  width: 100px;
+  height: 100px;
+  background-color: gold;
+  background: none;
+  margin: 85px;
+  border: 5px solid gold;
+  border-radius: 50%;
 
-  .propos {
-    padding: 13px 35px;
-    border:1px solid #FFF;
-    border-radius: 3px;
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
-     -webkit-transition-duration: 0.2s; /* Safari */
-    transition-duration: 0.2s;
-  }
-  .propos a:visited{
-    color: #FFF;
-  }
-  .propos:hover {
-    background-color: #FFF;
-  }
-  .propos:hover a{
-    color: #2f4148 !important;
-  }
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+
+}
+/*.bloc li{
+  width: 100px;
+  height: 100px;
+  background-color: gold;
+  background: none;
+  margin: 85px;
+  border: 5px solid gold;
+  border-radius: 50%;
+  display: inline-block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+
+}*/
