@@ -1,22 +1,206 @@
-.contenu {
+html, body {
+    padding: 0;
+    margin: 0;
+}
 
-background-color:#EDEDED;
+
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height:75px;
+    background-color: #2f4148;}
+
+.container {
+margin: 0 auto;
+width: 960 px;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Montserrat:300', sans-serif; font-weight: 400; color:white;}
+
+
+li{
+  list-style: none;
+  float: left;
+  margin-left: 20px;
+  padding-top: 15px;}
+
+.nav{
+  float: right;
+margin-right: 20px;}
+
+.logo {
+float: left;
+height: 50px;
+padding: 12px;
+}
+
+.top {
+    padding: 13px 35px;
+    border:1px solid #FFF;
+    border-radius: 3px;
+    cursor: pointer;
+     -webkit-transition-duration: 0.2s; /* Safari */
+transition-duration: 0.2s;
 
 }
+  .top a:visited{
+    color: white;
+  }
+
+.top:hover {
+  background-color: #FFF;
+  color: #2f4148;
+}
+.top:hover a{
+  color: #2f4148 !important;
+}
+
+  .propos {
+    padding: 13px 35px;
+    border:1px solid #FFF;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+     -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+  }
+  .propos a:visited{
+    color: #FFF;
+  }
+  .propos:hover {
+    background-color: #FFF;
+  }
+  .propos:hover a{
+    color: #2f4148 !important;
+}
+
+.contenu {
+background-color:#EDEDED;
+padding: 20px;
+height: 500px;
+}
+
 .musicbloc {
   text-align: center;
   background-color: #FFFFFF;
-  height: 85px;
+  height: 15px;
   margin-top: 20px;
   border-radius: 4px;
   box-shadow: 0px 5px 5px #D3D3D3;
-
-
+  height: 40px;
+  padding: 8px;
+  cursor: pointer;
 }
 
 .backcontenu {
   padding-left: 15%;
   padding-right: 15%;
   background-color: #EDEDED;
+  text-align: center;
+}
 
+.panel0 {
+  padding-top: 20px;
+  text-align: center;
+  background-color: #FFFFFF;
+  margin-top: -2px;
+  box-shadow: 0px 5px 5px #D3D3D3;
+  display: none;
+}
+
+.line {
+    transition: all 500ms;
+    height: 1px;
+    background-color: #D3D3D3;
+}
+
+.titremusic {
+float: left;
+font-family: 'Montserrat:300', sans-serif; font-weight: 400;
+color: #898989;
+padding: 12px;
+}
+
+.titreauteur{
+float: left;
+font-family: 'Montserrat:300', sans-serif; font-weight: 400;
+color: #f3946d;
+margin-left: 20px;
+padding: 12px;
+}
+
+.nombrevote{
+float: right;
+font-family: 'Montserrat:500', sans-serif; font-weight: 500;
+font-size: 20px;
+color: #D3D3D3;
+margin-right: 20px;
+padding: 12px;
+}
+
+
+.infomusic{
+font-family: 'Montserrat:500', sans-serif; font-weight: 500;
+font-size: 15px;
+color: #D3D3D3;
+padding-bottom: 20px;
+}
+
+.titreinfomusic{
+font-family: 'Montserrat:500', sans-serif; font-weight: 500;
+font-size: 40px;
+color: #D3D3D3;
+}
+
+.contneurimg {
+float: left;
+width: 40px;
+height: 40px;
+margin-right: 10px;
+background-color: #D3D3D3;
+
+}
+
+.imagemusic {
+
+width: 100%;
+}
+
+.iframe {
+margin-bottom: -5px;
+}
+
+.Sloganpage {
+  font-family: 'Montserrat:500', sans-serif; font-weight: 500;
+  font-size: 35px;
+  color: #3a3a3a;
+  padding: 30px;
+  padding-top: 150px;
+}
+
+.DescriptionSlogan{
+  font-family: 'Montserrat:500', sans-serif; font-weight: 300;
+  font-size: 20px;
+  color: #D3D3D3;
+  padding-bottom: 30px;
+}
+
+.btnvote {
+  border: 2px;
+  background-color: #2f4148;
+  font-family: 'Montserrat:500', sans-serif; font-weight: 300;
+  font-size: 15px;
+  color: #FFF;
+  border-radius: 3px;
+  width:100px;
+  float: right;
+  padding: 9px;
+  margin-top: 3px;
+  margin-right: 20px;
+  cursor: pointer;
 }
