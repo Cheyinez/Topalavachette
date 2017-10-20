@@ -1,26 +1,42 @@
 $(document).ready(function(){
 
-    $("#bloc1").click(function(){
-        $("#panel1").slideToggle("slow");
+    $( ".contenu" ).on( "click", "#idBloc-9", function() {
+      $("#idPanel-9").slideToggle("slow");
     });
 
-    $("#bloc2").click(function(){
-        $("#panel2").slideToggle("slow");
+    $( ".contenu" ).on( "click", "#idBloc-10", function() {
+      $("#idPanel-10").slideToggle("slow");
     });
 
-    $("#bloc3").click(function(){
-        $("#panel3").slideToggle("slow");
+    $( ".contenu" ).on( "click", "#idBloc-11", function() {
+      $("#idPanel-11").slideToggle("slow");
     });
 
-    $.getJSON("https://api.airtable.com/v0/appGUZh7thZxapx1y/musics?api_key=keyPrSeGbFB4cWNqf",
-    					function(data) {
-                console.log(data);
-                console.log(data.records[0].fields.likes);
-              	// fonction de succès
-                // j'ai envie ici d'afficher le contenu de data dans la balise article de mon site
-                // par défault, ce que me renvoie la fonction getJSON est un tableau/une liste qui contient tous les users
-                // pour l'afficher sur mon site, je dois le transformer en chaine de caractère, c'est à dire en texte brut, c'est le rôle de la fonction JSON.stringify
-                // Ensuite, je peux insérer ma variable data_str quelque part sur mon site, ici dans ma balise article
-    					});
+    $( ".contenu" ).on( "click", "#idBloc-12", function() {
+      $("#idPanel-12").slideToggle("slow");
+    });
 
+    $( ".contenu" ).on( "click", "#idBloc-13", function() {
+      $("#idPanel-13").slideToggle("slow");
+    });
+
+    $( ".contenu" ).on( "click", "#idBloc-14", function() {
+      $("#idPanel-14").slideToggle("slow");
+    });
+
+    $( ".contenu" ).on( "click", "#idBloc-15", function() {
+      $("#idPanel-15").slideToggle("slow");
+    });
+
+    $( ".contenu" ).on( "click", "#idBloc-16", function() {
+      $("#idPanel-16").slideToggle("slow");
+    });
+
+    $( ".contenu" ).on( "click", "#idBloc-17", function() {
+      $("#idPanel-17").slideToggle("slow");
+    });
+
+    $( ".contenu" ).on( "click", "#idBloc-18", function() {
+      $("#idPanel-18").slideToggle("slow");
+    });
 });
