@@ -1,93 +1,165 @@
-.body {background: silver;}
-
-.h1 {text-align: center;
-font-family: 'Montserrat:300', sans-serif; font-weight: 400;}
-.header{
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    height:75px;
-    background-color: #2f4148;}
-
-.container {
-margin: 0 auto;
-width: 960 px;
+html, body {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #EDEDED;
 }
 
-a {
-  text-decoration: none;
-  font-family: 'Montserrat:300', sans-serif; font-weight: 400;}
+.titre {
+  padding: 15px;
+}
+.titre h1{
+  text-align: center;
+  font-family: 'Montserrat:300',
+  sans-serif;
+  font-weight: 400;
+  margin-bottom: 0.5;
+  padding-top: 100px;
+  color: #2f4148;
+  font-weight: bold;}
 
-li{
+.explications {
+  text-align: center;
+  font-family: 'Montserrat:300',
+  sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #D3D3D3;
+  padding-bottom: 25px;
+}
+
+
+.fa-headphones{
+  font-size: 50;
+  color: gold;
+  margin-top: 25px;
+}
+
+.fa-heart-o{
+  font-size: 50;
+  color: gold;
+  margin-top: 25px;
+}
+
+.fa-share-alt{
+  font-size: 50;
+  color: gold;
+  margin-top: 25px;
+}
+.titre p{
+  font-family: 'Montserrat:300', sans-serif;
+  color: #3a3a3a;
+  text-align: center;
+}
+.header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height:75px;
+  background-color: #2f4148;
+z-index: 1;}
+
+.footer{
+  width: 100%;
+  background-color: #2f4148;
+  height: 70px;
+  margin-top: 20px;
+}
+.footer p{
+  display: flex;
+  font-family: 'Montserrat:300',
+  sans-serif;
+  font-weight: 400;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+/* nav boutons vers les pages */
+.nav{
+  float: right;
+  margin-right: 20px;
+  margin-top: 13px;}
+
+.nav li{
   list-style: none;
   float: left;
   margin-left: 20px;
-  padding-top: 15px;}
+  padding-top: 15px;
+  font-family: 'Montserrat:300', sans-serif; font-weight: 400;
+  color: white;
+  padding: 13px 35px;
+  border:1px solid #FFF;
+  border-radius: 3px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.2s; /* Safari */
+  transition-duration: 0.2s;
+}
+.nav a:visited{
+    color: white;}
 
-.nav{
-  float: right;
-margin-right: 20px;}
-
-
+.nav li:hover {
+  background-color: #FFF;
+  color: #2f4148;
+    }
+.nav li:hover a{
+  color: #2f4148 !important;
+  text-decoration: none;
+    }
 .logo {
-float: left;
-height: 50px;
-padding: 12px;
+  float: left;
+  height: 75px;
+  padding: 9px;
 }
 
+.fonimgcenter {
+  background-image: url(image/jo.jpg);
+  background-size: cover;
+  padding: 120px 90px;
+}
+.text-center {
+  margin-bottom: 0.5em;
+  font-family: 'Montserrat:300', sans-serif
+  color: #2f4148;
+  text-align: center;
+  padding-top: 30px;
+}
 
-.imageducentre {
-	max-width: 100%;
-	height: 300px;
-  text-align: center;}
-
-.sm {
-max-width: 100%;
-height: 50px;
-background-size: cover;
+.reseaux img {
+  max-width: 100%;
+  height: 50px;
+  background-size: cover;
   background-position: center;
   overflow: hidden;
   -webkit-backface-visibility: hidden;}
 
-  .top {
-    padding: 13px 35px;
-    border:1px solid #FFF;
-    border-radius: 3px;
-    cursor: pointer;
-     -webkit-transition-duration: 0.2s; /* Safari */
-    transition-duration: 0.2s;
-
-
-  }
-  .top a:visited{
-    color: white;
-  }
-
-.top:hover {
-  background-color: #FFF;
-  color: #2f4148;
+.bloc {
+  list-style: none;
+  vertical-align: middle;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Montserrat:300',
+  sans-serif;
+  font-weight: 400;
 }
-.top:hover a{
-  color: #2f4148 !important;
+.casselescouilles {
+  padding-bottom: 62.5px;}
+
+.bloc p{
+  color: white;
+  font-size: 1.5em;
 }
 
-  .propos {
-    padding: 13px 35px;
-    border:1px solid #FFF;
-    border-radius: 3px;
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
-     -webkit-transition-duration: 0.2s; /* Safari */
-    transition-duration: 0.2s;
-  }
-  .propos a:visited{
-    color: #FFF;
-  }
-  .propos:hover {
-    background-color: #FFF;
-  }
-  .propos:hover a{
-    color: #2f4148 !important;
-  }
+.cercle {
+  width: 100px;
+  height: 100px;
+  border: 5px solid gold;
+  border-radius: 50%;
+  position: relative;
+
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
