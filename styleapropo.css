@@ -2,9 +2,10 @@ html, body {
     padding: 0;
     margin: 0;
 }
-.body {
-  background: silver;
+body {
+    background-color: #EDEDED;
 }
+
 .titre {
   padding: 15px;
 }
@@ -17,6 +18,17 @@ html, body {
   padding-top: 100px;
   color: #2f4148;
   font-weight: bold;}
+
+.explications {
+  text-align: center;
+  font-family: 'Montserrat:300',
+  sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #D3D3D3;
+  padding-bottom: 25px;
+}
+
 
 .fa-headphones{
   font-size: 50;
@@ -52,15 +64,20 @@ z-index: 1;}
 .footer{
   width: 100%;
   background-color: #2f4148;
-  height: 45px;
+  height: 70px;
   margin-top: 20px;
 }
-
-a {
-  text-decoration: none;
+.footer p{
+  display: flex;
+  font-family: 'Montserrat:300',
+  sans-serif;
+  font-weight: 400;
   color: white;
+  justify-content: center;
+  align-items: center;
 }
 
+/* nav boutons vers les pages */
 .nav{
   float: right;
   margin-right: 20px;
@@ -118,8 +135,8 @@ a {
   overflow: hidden;
   -webkit-backface-visibility: hidden;}
 
-
-.bloc {list-style: none;
+.bloc {
+  list-style: none;
   vertical-align: middle;
   align-items: center;
   display: flex;
@@ -135,20 +152,10 @@ a {
   color: white;
   font-size: 1.5em;
 }
-.footer p{
-  vertical-align: middle;
-  align-items: center;
-  display: flex;
-  justify-content: space-around;
-  font-family: 'Montserrat:300',
-  sans-serif;
-  font-weight: 400;
-  color: white;
-}
-.cercle{  width: 100px;
+
+.cercle {
+  width: 100px;
   height: 100px;
-  /*background-color: gold;
-  background: none;*/
   border: 5px solid gold;
   border-radius: 50%;
   position: relative;
@@ -156,18 +163,3 @@ a {
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
 }
-
-
-/*.bloc li{
-  width: 100px;
-  height: 100px;
-  background-color: gold;
-  background: none;
-  margin: 85px;
-  border: 5px solid gold;
-  border-radius: 50%;
-  display: inline-block;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-
-}*/
